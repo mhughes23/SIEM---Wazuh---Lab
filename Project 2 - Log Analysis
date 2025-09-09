@@ -1,1 +1,44 @@
+# Project 2: Log Analysis and Event Monitoring with Wazuh
 
+## Overview
+In this project, I configured Wazuh to collect and analyze logs from an Ubuntu server and macOS endpoint. 
+I simulated real-world events (failed SSH logins, file modifications, and privilege escalation) to practice how SOC analysts monitor, detect, and investigate security events.
+
+## Architecture
+- **Wazuh Manager** (Ubuntu VM)
+- **Wazuh Dashboard** (Web interface)
+- **Agents**:
+  - Ubuntu endpoint
+  - macOS endpoint
+- **Log Sources**:
+  - SSH authentication logs
+  - System logs (/var/log/syslog)
+  - File integrity monitoring logs
+
+## Steps Taken
+1. **Configured Wazuh agents** on Ubuntu and macOS to forward logs to the Wazuh Manager.
+2. **Verified log collection** in the Wazuh Dashboard under *Security Events → Events*.
+3. **Generated test events**:
+   - Failed SSH logins using `ssh invaliduser@server`.
+   - File modifications in monitored directories.
+   - `sudo` commands for privilege escalation logging.
+4. **Analyzed alerts** by filtering logs in the dashboard:
+   - Search by keyword: `ssh`, `sudo`, or `authentication failure`.
+   - Filter by rule group: `authentication_failed` or `syslog`.
+5. **Documented detection** by capturing screenshots of alerts in the dashboard.
+
+## Example Alerts Observed
+- **Failed SSH login**: Multiple authentication failures detected from the same IP.
+- **File integrity alert**: Unauthorized modification to `/etc/passwd` test file.
+- **Privilege escalation alert**: User executed a `sudo` command.
+
+## Screenshots
+- Wazuh dashboard event search
+- Example SSH brute-force detection alert
+- File Integrity Monitoring (FIM) alert view
+
+## Skills Demonstrated
+- Linux/macOS log collection
+- Event monitoring and filtering in a SIEM
+- Understanding authentication, privilege escalation, and FIM alerts
+- SOC analyst workflow: *Detect → Investigate → Document*
