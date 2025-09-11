@@ -23,6 +23,5 @@ I deployed a Wazuh SIEM on Ubuntu using UTM, connected a macOS agent, and verifi
 - Agent configuration
 - Log analysis
 - SOC workflow simulation
-<img width="1710" height="1112" alt="dashboard login - project 1" />
-![src="https://github.com/user-attachments/assets/fdbe6792-4bbf-4b4d-afec-8959cb2b73f2" ]
+![<img width="1710" height="1112" alt="dashboard login - project 1" src="https://github.com/user-attachments/assets/fdbe6792-4bbf-4b4d-afec-8959cb2b73f2" />]
 ![<img width="1710" height="1112" alt="connected agents - project 1" src="https://github.com/user-attachments/assets/2b971510-429e-431e-a05f-37ce25c62155" />]
