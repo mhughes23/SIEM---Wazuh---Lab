@@ -23,7 +23,7 @@ I deployed a Wazuh SIEM on Ubuntu using UTM, connected a macOS agent, and verifi
 - Agent configuration
 - Log analysis
 - SOC workflow simulation
+![Dashboard Wazuh Login Page](https://github-production-user-asset-6210df.s3.amazonaws.com/156738312/488413095-fdbe6792-4bbf-4b4d-afec-8959cb2b73f2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250911%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250911T154721Z&X-Amz-Expires=300&X-Amz-Signature=d2afebefb453068c3a6df91a76b643678f24d62b2e073837f1d806aedc567df6&X-Amz-SignedHeaders=host)
 
-![Image of Daghboard Login - Project 1] (https://github.com/user-attachments/assets/fdbe6792-4bbf-4b4d-afec-8959cb2b73f2)
-![<img width="1710" height="1112" alt="dashboard login - project 1" src="https://github.com/user-attachments/assets/fdbe6792-4bbf-4b4d-afec-8959cb2b73f2" />] (https://github.com/user-attachments/assets/fdbe6792-4bbf-4b4d-afec-8959cb2b73f2)
+![<img width="1710" height="1112" alt="dashboard login - project 1" src="https://github.com/user-attachments/assets/fdbe6792-4bbf-4b4d-afec-8959cb2b73f2" />] 
 ![<img width="1710" height="1112" alt="connected agents - project 1" src="https://github.com/user-attachments/assets/2b971510-429e-431e-a05f-37ce25c62155" />]
