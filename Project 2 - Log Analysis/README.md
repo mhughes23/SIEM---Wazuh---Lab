@@ -33,9 +33,12 @@ I simulated real-world events (failed SSH logins, file modifications, and privil
 - **Privilege escalation alert**: User executed a `sudo` command.
 
 ## Screenshots
-- Wazuh dashboard event search
+- Example `sudo` command search
+  <img width="1710" height="1112" alt="project 2 - sudo" src="https://github.com/user-attachments/assets/a4505545-d777-4683-a85a-3cecf6e82aa0" />
 - Example SSH brute-force detection alert
+  <img width="1710" height="1112" alt="failed ssh login - project 2" src="https://github.com/user-attachments/assets/f7eb69a8-c657-4943-9f7f-a9de1b8e09c3" />
 - File Integrity Monitoring (FIM) alert view
+  <img width="1710" height="1112" alt="FIM - roject 2" src="https://github.com/user-attachments/assets/cdace15b-8ea2-4d07-9e66-c321c20e71b6" />
 
 ## Skills Demonstrated
 - Linux/macOS log collection
@@ -43,6 +46,3 @@ I simulated real-world events (failed SSH logins, file modifications, and privil
 - Understanding authentication, privilege escalation, and FIM alerts
 - SOC analyst workflow: *Detect → Investigate → Document*
 
-<img width="1710" height="1112" alt="failed ssh login - project 2" src="https://github.com/user-attachments/assets/f7eb69a8-c657-4943-9f7f-a9de1b8e09c3" />
-<img width="1710" height="1112" alt="FIM - roject 2" src="https://github.com/user-attachments/assets/cdace15b-8ea2-4d07-9e66-c321c20e71b6" />
-<img width="1710" height="1112" alt="project 2 - sudo" src="https://github.com/user-attachments/assets/a4505545-d777-4683-a85a-3cecf6e82aa0" />
