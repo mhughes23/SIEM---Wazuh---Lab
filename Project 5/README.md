@@ -1,4 +1,4 @@
-# Project 5: Custom Syslog Message & Wazuh Rule Creation
+# Project 3: Custom Syslog Message & Wazuh Rule Creation
 
 ## Objective
 This project demonstrates the creation of **custom Wazuh rules** for detecting organization-specific events.  
