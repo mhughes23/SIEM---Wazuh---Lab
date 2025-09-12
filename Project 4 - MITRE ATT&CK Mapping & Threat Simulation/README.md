@@ -44,5 +44,14 @@ Navigated to Wazuh Dashboard → Security Events → Events.
   --**Privilege Escalation (sudo)	5402	T1068 – Elevation of Privilege
   --**User Account Creation	550	T1136 – Create Account
 
-  -Screenchots
-
+###6. Screencshots
+  - **Wazuh dashboard report
+    <img width="1710" height="1112" alt="project 4 - report" src="https://github.com/user-attachments/assets/c554d32f-79ce-480b-a47a-a2bdb58581b0" />
+  - **Event visualizatiions(line/pie/bar)
+    ![]
+  - **Custom Dashboard overview
+    <img width="1710" height="1112" alt="project 4 - dashboard" src="https://github.com/user-attachments/assets/a3603a8d-7ce5-47cc-bc8f-949cc4fc174b" />
+  - **MITRE ATT&CK Evidence
+    <img width="1710" height="1112" alt="project 4 - mapping - new user account creation " src="https://github.com/user-attachments/assets/c21c5211-d3dd-4b7a-bfcc-0926f85a5c9e" />
+    <img width="1710" height="1112" alt="project 4 - mapping - privilege escalation" src="https://github.com/user-attachments/assets/4253c691-02ea-447f-bf16-0f3abb6c745a" />
+    <img width="1710" height="1112" alt="project 4 - mapping - ssh brute force" src="https://github.com/user-attachments/assets/97cb0d16-ae58-4aa5-9ef8-471eaf3701d7" />
