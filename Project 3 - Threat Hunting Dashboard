@@ -1,4 +1,4 @@
-# Project 3: Threat Hunting Dashboard & Reporting with Wazuh
+# Project 5: Threat Hunting Dashboard & Reporting with Wazuh
 
 ## Overview
 In this project, I built custom threat hunting dashboards in Wazuh and Kibana to visualize suspicious activity and create analyst-style reports. 
