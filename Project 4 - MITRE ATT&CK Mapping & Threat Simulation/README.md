@@ -47,8 +47,8 @@ Navigated to Wazuh Dashboard → Security Events → Events.
 ###6. Screencshots
   - **Wazuh dashboard report
     <img width="1710" height="1112" alt="project 4 - report" src="https://github.com/user-attachments/assets/c554d32f-79ce-480b-a47a-a2bdb58581b0" />
-  - **Event visualizatiions(line/pie/bar)
-    ![]
+  - **Example of new user creation
+    <img width="1710" height="1112" alt="project 4 - alerts" src="https://github.com/user-attachments/assets/cee82c38-926d-467d-8a8e-fab398420525" />
   - **Custom Dashboard overview
     <img width="1710" height="1112" alt="project 4 - dashboard" src="https://github.com/user-attachments/assets/a3603a8d-7ce5-47cc-bc8f-949cc4fc174b" />
   - **MITRE ATT&CK Evidence
