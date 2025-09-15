@@ -1,30 +1,25 @@
-# Project 6 – Automated Threat Denial with Wazuh
+# Cloud Security Monitoring & Threat Detection Project
 
-## 📌 Project Overview
-In this project, I implemented **automated threat denial** in my personal SOC lab using **Wazuh SIEM**.  
-The goal was to simulate a **real-world SOC response** where the SIEM not only detects malicious activity (e.g., brute-force SSH attempts) but also **blocks the threat automatically** using active response scripts.
+## Overview
+This project demonstrates a personal Security Operations Center (SOC) workflow for **cloud infrastructure monitoring**. Using **Wazuh SIEM** and cloud logs (AWS CloudTrail), the project simulates real-world SOC activities, including detecting misconfigurations, unauthorized access, and suspicious API activity.  
 
-This demonstrates **incident detection + automated remediation**, a key SOC analyst skill.
-
----
-
-## ⚙️ Requirements
-- **Wazuh Manager** deployed on Ubuntu
-- **Wazuh Agent** running on a monitored endpoint (Ubuntu/Mac)
-- Access to `/var/ossec/etc/ossec.conf` for configuration
-- Test environment for generating SSH brute-force attempts (using `hydra` or manual failed login attempts)
+This project highlights skills relevant to a SOC analyst role: **log collection, alert creation, dashboard visualization, and incident reporting**.
 
 ---
 
-## 🚀 Steps Taken
+## Requirements
+- Wazuh Manager running on Ubuntu server  
+- Wazuh Agent installed on a VM or cloud instance  
+- Cloud account (AWS preferred for CloudTrail logging)  
+- Filebeat for log forwarding to Wazuh  
+- Kibana or Wazuh dashboards for visualization  
 
-### 1. Enable Active Response in Wazuh
-Edited the **ossec.conf** file on the Wazuh Manager:
-```xml
-<ossec_config>
-  <active-response>
-    <disabled>no</disabled>
-    <ca_store>/var/ossec/etc/sslmanager.cert</ca_store>
-  </active-response>
-</ossec_config>
+---
 
+## Steps Taken
+
+### 1. Cloud Log Collection
+- Enabled **AWS CloudTrail** to capture all API activity.  
+- Configured **Filebeat** to forward CloudTrail logs to Wazuh Manager:  
+```bash
+sudo apt install filebeat
