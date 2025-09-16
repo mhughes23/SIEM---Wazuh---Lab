@@ -45,5 +45,4 @@ sudo apt-get install suricata -y
 
 📸 Dashboard Example
 
-    ![<img width="1710" height="1112" alt="project 5" src="https://github.com/user-attachments/assets/854f9a75-2ae1-45a6-b17c-71f128a6ec6d" />
-]
+<img width="1710" height="1112" alt="project 5" src="https://github.com/user-attachments/assets/5b0ae96c-09b4-47af-a89d-c9ed7a900480" />
