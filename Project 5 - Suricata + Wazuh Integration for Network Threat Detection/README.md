@@ -48,4 +48,4 @@ Attack Emulation & Detection
 -Security Operations (SOC) Practices
 
 📸 Dashboard Example
-![]
+<img width="1710" height="1112" alt="project 5" src="https://github.com/user-attachments/assets/9f60ddb8-4c35-4663-8dc6-db85a3e159c8" />
