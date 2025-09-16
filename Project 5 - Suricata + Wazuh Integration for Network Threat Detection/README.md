@@ -42,3 +42,8 @@ sudo apt-get install suricata -y
     -Log Analysis & Threat Hunting
     -Linux System Administration (Ubuntu 22.04, systemctl, YAML/XML config)
     -Security Operations (SOC) Practices
+
+📸 Dashboard Example
+
+    ![<img width="1710" height="1112" alt="project 5" src="https://github.com/user-attachments/assets/854f9a75-2ae1-45a6-b17c-71f128a6ec6d" />
+]
